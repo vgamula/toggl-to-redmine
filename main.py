@@ -8,7 +8,7 @@ def pretty_json(data):
     return json.dumps(data, sort_keys=True, indent=4, separators=(',', ': '))
 
 
-api = TogglAPI(api_token='5b8a24ee4cc65ddc02b25c71dbab4cd0')
+api = TogglAPI(api_token='YOUR_TOGGL_API_KEY')
 
 
 today = datetime.now().replace(hour=0, minute=0, second=0).isoformat()
